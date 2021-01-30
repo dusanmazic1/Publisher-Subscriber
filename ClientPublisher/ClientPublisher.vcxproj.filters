@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="PublisherHelper.cpp">
+      <Filter>PublisherHelper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="PublisherHelper">
+      <UniqueIdentifier>{b8b7f5dc-749b-4fae-96b9-9a8762a15afd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PublisherHelper.h">
+      <Filter>PublisherHelper</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
